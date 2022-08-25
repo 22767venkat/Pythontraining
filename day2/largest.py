@@ -1,0 +1,10 @@
+a=77
+b=55
+c=99
+if(a>=b)and(a>=c):
+    largest=a
+elif(b>=c)and(b>=a):
+    largest=b
+else:
+    largest=c
+print(largest)
